@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/time.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+          
+          <nav>
+            <ul>
+                <li class="headtitle">Beautify.</a></li>
+                <li><a href="#">Trang chủ</a></li>
+                <li><a href="#">Cửa hàng</a></li>
+                <li class="dropdown">
+                    <a href="#">Cửa hàng</a>
+                    <div class="dropdown-content">
+                        <a href="#">Hải Phòng</a>
+                        <a href="#">Hồ Chí Minh</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Danh mục</a>
+                    <div class="dropdown-content">
+                        <a href="#">Danh mục 1</a>
+                        <a href="#">Danh mục 2</a>
+                        <a href="#">Danh mục 3</a>
+                        <a href="#">Danh mục 4</a>
+                    </div>
+                </li>
+                <li><a href="#">Sản phẩm</a></li>
+                <li><a href="#">Top Deals</a></li>
+                <li><a href="#">Khác</a></li>
+                <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+              </ul>
+          </nav>
+        </div>
+    </header>
+    <!--------------------------------------------------------------------------------------------------->
+    <main>
+        <!--------------------------------------------------------------------------------------------------->
+        <div class="center">
+            <img src="image/hinh.jpg" alt="" class="image">
+            <p>Chào mừng bạn đến với Beautify!</p>    
+            <p> <span class="specialproduct">Uy Tín - Chất Lượng
+                Tạo Nên Sự Bền Vững</span> </p>
+            <p>Chúng tôi muốn đáp ứng nhu cầu của hiện tại mà không gây nguy hiểm cho khả năng đáp ứng nhu cầu của thế hệ tương lai.</p>
+            <button class="timhieu">Tìm hiểu thêm</button>
+            
+        </div>
+        <!--------------------------------------------------------------------------------------------------->
+        <div id="timer">
+            <ul>
+              <li><div id="days"></div></li>
+              <li><div id="hours"></div></li>
+              <li><div id="minutes"></div></li>
+              <li><div id="seconds"></div></li>
+            </ul>
+        </div>
+        <br>
+        <script src="jquery-3.1.1.min.js"></script>
+        <script>
+            function makeTimer() {
+        
+            //		var endTime = new Date("29 April 2018 9:56:00 GMT+01:00");	
+                var endTime = new Date("17 July 2024 00:00:00 GMT+05:30");			
+                    endTime = (Date.parse(endTime) / 1000);
+            
+                    var now = new Date();
+                    now = (Date.parse(now) / 1000);
+            
+                    var timeLeft = endTime - now;
+            
+                    var days = Math.floor(timeLeft / 86400); 
+                    var hours = Math.floor((timeLeft - (days * 86400)) / 3600);
+                    var minutes = Math.floor((timeLeft - (days * 86400) - (hours * 3600 )) / 60);
+                    var seconds = Math.floor((timeLeft - (days * 86400) - (hours * 3600) - (minutes * 60)));
+              
+                    if (hours < "10") { hours = "0" + hours; }
+                    if (minutes < "10") { minutes = "0" + minutes; }
+                    if (seconds < "10") { seconds = "0" + seconds; }
+            
+                    $("#days").html(days + "<span>Days</span>");
+                    $("#hours").html(hours + "<span>Hours</span>");
+                    $("#minutes").html(minutes + "<span>Minutes</span>");
+                    $("#seconds").html(seconds + "<span>Seconds</span>");		
+            
+            }
+            
+            setInterval(function() { makeTimer(); }, 1000);
+        </script>
+        <br>
+        <section class="container">
+            <!--<h1 class="tieude">news</h1>-->
+            <br>
+            <div class="tintuc">
+                <img src="image/family_image.png" alt="" class="sanpham">
+                <br>
+                <a href="#">Kem dưỡng da ban ngày Sunday Riley</a>
+                <p>399.000</p>
+            </div>
+            <div class="tintuc">
+                <img src="image/family_image.png" alt="" class="sanpham">
+                <br>
+                <a href="#">Kem dưỡng da ban ngày Sunday Riley</a>
+                <p>399.000</p>
+            </div>
+            <div class="tintuc">
+                <img src="image/family_image.png" alt="" class="sanpham">
+                <br>
+                <a href="#">Kem dưỡng da ban ngày Sunday Riley</a>
+                <p>399.000</p>
+            </div>
+        </section>
+        <section>
+            <H1 class="center">Nhận liệu pháp chăm sóc da chuyên sâu</H1>
+            <p class="center">Chúng tôi có một chuyên gia sẵn sàng giúp đỡ bạn với bất kỳ câu trả lời và lời khuyên nào bạn cần
+                "Mỗi người phụ nữ đều có nét đẹp bí ẩn từ bên trong,
+                hãy để nét đẹp ấy được tỏa sáng cùng Allione" </p>
+            
+            <a href="#" class="center">Xem thêm -></a>
+        </section>
+        <section>
+            <h1 class="center">Quy trình chăm sóc da trong 4 bước</h1>
+        </section>
+        <section class="container">
+            <!--<h1 class="tieude">news</h1>-->
+            <h1 class="center">Tin Tức - Sự Kiện</h1>
+            <br>
+            <div class="tintuc">
+                <img src="image/family_image.png" alt="" class="tintuc">
+                <br>
+                <p>315 comments</p>
+                <p>1555 likes</p>
+                <br>
+                <a href="#">Các bước make-up đơn giản cho người mới bắt đầu</a>
+                <p>Với khả năng che khuyết điểm cực kỳ tốt cùng độ bền màu đến 18 giờ, phấn nước Vely Vely đích thực...</p>
+            </div>
+            <br>
+            <div class="tintuc">
+                <img src="image/family_image.png" alt="" class="tintuc">
+                <br>
+                <p>315 comments</p>
+                <p>1555 likes</p>
+                <br>
+                <a href="#">Các bước make-up đơn giản cho người mới bắt đầu</a>
+                <p>Với khả năng che khuyết điểm cực kỳ tốt cùng độ bền màu đến 18 giờ, phấn nước Vely Vely đích thực...</p>
+            </div>
+            <br>
+            <div class="tintuc">
+                <img src="image/family_image.png" alt="" class="tintuc">
+                <br>
+                <p>315 comments</p>
+                <p>1555 likes</p>
+                <br>
+                <a href="#">Các bước make-up đơn giản cho người mới bắt đầu</a>
+                <p>Với khả năng che khuyết điểm cực kỳ tốt cùng độ bền màu đến 18 giờ, phấn nước Vely Vely đích thực...</p>
+            </div>
+        </section>
+    </main>
+    <!--------------------------------------------------------------------------------------------------->
+    <footer id="footer-html">
+        <div class="footer-container">
+          <div class="footer-left">
+            <h1 class="tittlefooter">Beautify.</h1>
+            <p>CÔNG TY TNHH MTV THƯƠNG MẠI & ĐẦU TƯ BEAUTIFY,</p>
+            <p>Giấy chứng nhận đăng ký doanh nghiệp số 0310618188, cấp ngày 29.01.2011, nơi cấp Sở kế hoạch và đầu tư TP HCM</p>
+            <p><i class="fa-solid fa-location-pin"></i>Trụ sở chính: 12-VP-01, 346 Bến Vân Đồn, P1, Q4, TP Hồ Chí Minh, VN</p>
+            <p>Hotline: <span class="phone">19004449</span> - Điện thoại: <span class="phone">02838328272</span></p>
+          </div>
+          <div class="footer-right">
+            <a href="#">Theo dõi chúng tôi</a>
+            <br>
+            <i class="fa-brands fa-google"></i>
+            <br>
+            <a href="#">Tải App ngay tại</a>
+        </div>
+          <div class="footer-right">
+            <a href="#">Về chúng tôi</a>
+            <br>
+            <br>
+            <a href="#">Giới thiệu</a>
+            <br>
+            <a href="#">Cẩm nang làm đẹp</a>
+            <br>
+            <a href="#">Khách hàng thân thiết</a>
+            <br>
+            <a href="#">Liên hệ</a>
+            <br>
+            <a href="#">Địa chỉ cửa hàng</a>
+            <br>
+            <a href="#">Cho thuê mặt bằng</a>
+          </div>
+          <div class="footer-right">
+            <a href="#">Về chính sách</a>
+            <br>
+            <br>
+            <a href="#">Chính sách và quy định chung</a>
+            <br>
+            <a href="#">Quy định - hình thức thanh toán</a>
+            <br>
+            <a href="#">Chính sách vận chuyển</a>
+            <br>
+            <a href="#">Chính sách đổi trả hàng</a>
+            <br>
+            <a href="#">Hướng dẫn mua hàng</a>
+            <br>
+            <a href="#">Quy trình xuất hóa đơn điện tử</a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="footer-icons">
+            <a href="#"><img src="facebook.svg" alt="Facebook"></a>
+            <a href="#"><img src="download_app_store.svg" alt="App Store"></a>
+            <a href="#"><img src="google_play.svg" alt="Google Play"></a>
+          </div>
+          <p>© 2024 Beautify</p>
+        </div>
+      </footer>
+      
+</body>
+</html>

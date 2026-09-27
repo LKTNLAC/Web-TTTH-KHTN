@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;    
+  }
+  
+  #timer
+  {
+      width:540px;
+      float:left;	
+      text-align:center;
+  }
+  #timer ul
+  {
+      list-style:none;
+      display:inline-block;	
+      padding:0;
+      margin:0;
+  }
+  #timer ul li
+  {
+      float:left;	
+      margin:10px;
+  }
+  #timer span {
+    display: block;
+    font-size: 14px;
+    color: white;
+  }
+  
+  #days, #hours, #minutes, #seconds {
+    font-size: 20px;
+    color: #fff;
+    width:60px;
+    height:60px;
+    background-color:#000;
+    float:left;  
+    padding-top:10px;
+    box-sizing:border-box;
+    text-align:center;
+  }
