@@ -1,0 +1,13 @@
+.bg
+{
+    height: 100px;
+    background-color: yellowgreen;
+    margin-bottom: 15px;
+}
+.timkiem
+{
+    height: 40px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}

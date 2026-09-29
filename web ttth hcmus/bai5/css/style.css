@@ -1,0 +1,26 @@
+@font-face
+{
+    font-family: roboto;
+    src: url(../Font/Roboto-Regular.ttf)
+}
+body
+{
+    font-family: roboto;
+}
+.bg-form
+{
+    background-image: url("../Image/background.jpg");
+    min-height: 300px;
+    background-size: cover;
+    padding: 100px;
+}
+.bg-white
+{
+   background-color: #fff; 
+   min-height: 100px;
+
+}
+.form-img
+{
+    padding: 30px;
+}
