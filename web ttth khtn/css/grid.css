@@ -1,0 +1,193 @@
+body, p, h1, h2, h3, h4, h5, h6
+{
+    padding:0;
+    margin: 0;
+}
+a
+{
+    text-decoration: none;
+}
+ul, ol
+{
+    padding:0;
+    margin: 0;
+    list-style:none;
+}
+.container
+{
+    width: 1320px;
+    margin: 0 auto;
+}
+.col-1
+{
+    width: 8.33%
+}
+.col-2
+{
+    width: 16.66%;
+}
+.col-3
+{
+    width: 25%;
+}
+.col-4
+{
+    width: 33.33%;
+}
+.col-5
+{
+    width: 41.66%;
+}
+.col-6
+{
+    width: 50%;
+}
+.col-7
+{
+    width: 58.33%;
+}
+.col-8
+{
+    width: 66.66%;
+}
+.col-9
+{
+    width: 75%;
+}
+.col-10
+{
+    width: 83.33%;
+}
+.col-11
+{
+    width: 91.66%;
+}
+.col-12
+{
+    width: 100%;
+}
+[class*="col-"]
+{
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.d-float
+{
+    float: left;
+}
+.d-right
+{
+    float: right;
+}
+.d-flex
+{
+    display: flex;
+}
+.row
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.clear
+{
+    clear: both;
+}
+.w-100
+{
+    width: 100%;
+}
+.img-fluid
+{
+    max-width: 100px;
+}
+.mt-0
+{
+    margin-top: 0;
+}
+.mt-1
+{
+    margin-top: 4px;
+}
+.mt-2
+{
+    margin-top: 8px;
+}
+.mt-3
+{
+    margin-top: 16px;
+}
+.mt-4
+{
+    margin-top: 24px;
+}
+.mt-5
+{
+    margin-top: 48px;
+}
+.mb-0
+{
+    margin-top: 0px;
+}
+.mb-1
+{
+    margin-top: 4px;
+}
+.mb-2
+{
+    margin-top: 8px;
+}
+.mb-3
+{
+    margin-top: 16px;
+}
+.mb-4
+{
+    margin-top: 24px;
+}
+.mb-5
+{
+    margin-top: 48px;
+
+}
+.my-0
+{
+    margin-top:0px;
+    margin-bottom: 0px;
+}
+.my-1
+{
+    margin-top:4px;
+    margin-bottom: 4px;
+}
+.my-2
+{
+    margin-top:8px;
+    margin-bottom: 8px;
+}
+.my-3
+{
+    margin-top:16px;
+    margin-bottom: 16px;
+}
+.my-4
+{
+    margin-top:24px;
+    margin-bottom: 24px;
+}
+.my-5
+{
+    margin-top:48px;
+    margin-bottom: 48px;
+}
+.text-center
+{
+    text-align:center;
+}
+.ps-0
+{
+    padding-left: 0;
+}
+.pe-0
+{
+    padding-right: 0;
+}

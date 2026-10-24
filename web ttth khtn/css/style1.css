@@ -1,0 +1,74 @@
+@font-face
+{
+    font-family: localfont;
+    src: url("../font/RobotoCondensed-Regular.ttf");
+}
+body
+{
+    font-family: localfont;
+}
+.menu
+{
+    width: 1200px;
+    margin: 10px auto;
+    background-color: #111;
+    height: 50px;
+}
+.menu ul
+{
+    padding:0;
+    margin:0;
+    list-style:none;
+}
+.menu ul li
+{
+    float:left;
+}
+.menu ul li a
+{
+    color: #fff;
+    text-transform: capitalize;
+    text-decoration: none;
+    line-height: 50px;
+    padding: 0 16px;
+}
+.menu ul li a:hover
+{
+    background-color: coral;
+    display: block;
+    color: #111;
+}
+.container
+{
+    width:1200px;
+    margin: 0 auto;
+}
+.tieude
+{
+    text-transform: uppercase;
+    text-align: center;
+}
+.tintuc
+{
+    width:400px;
+    float:left;
+    padding:10px;
+    box-sizing: border-box;
+    text-align:center;
+}
+.tintuc img{
+    width:100%;
+}
+.tintuc a
+{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #333;
+    font-size:18px;
+    line-height: 24px;
+}
+.tintuc p
+{
+    color: #777;
+    font-style: italic;
+}

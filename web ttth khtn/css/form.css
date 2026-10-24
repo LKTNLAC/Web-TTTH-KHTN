@@ -1,0 +1,95 @@
+@font-face
+{
+    font-family: roboto;
+    src: url("../Font/Roboto-Regular")
+}
+body
+{
+    font-family: roboto;
+}
+.bg-form
+{
+    background-image: url("../image/background.jpg");
+    min-height: 300px;
+    background-size: cover;
+    padding: 100px;
+}
+.bg-white
+{
+    background-color: #fff;
+    min-height: 100px;
+}
+.form-ing
+{
+    padding: 30px;
+}
+.form-login
+{
+    padding: 50px;
+}
+.form-title
+{
+    font-size:40px;
+    color: #333;
+}
+.text-label
+{
+    font-size: 14px;
+    color: #777;
+}
+.text-link
+{
+    color: #09f;
+    font-size: 14px;
+}
+.form-control
+{
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding-left: 16px;
+    outline: none;
+    margin: 5px 0 10px 0;
+}
+.btn-signin
+{
+    width: 100%;
+    border: none;
+    text-transform: uppercase;
+    color: #fff;
+    height: 40px;
+    border-radius: 5px;
+    margin: 16px 0;
+    background: linear-gradient(to right, #83D2FF, #006368)
+}
+.line
+{
+    height: 1px;
+    background-color: #ccc;
+    margin-top:8px;
+}
+.btn-link
+{
+    border: 1px solid;
+    width: 100%;
+    display: block;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 16px;
+    font-size: 20px;
+}
+.btn-red
+{
+    color: crimson;
+    border-color: crimson;
+}
+.btn-blue
+{
+    color: #09f;
+    border-color: #09f;
+}
+.btn-link
+{
+    padding-right:16px;
+}
